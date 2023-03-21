@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Completa tu nombre -->
+    <title>Prueba Paula</title>
+
+</head>
+
+<body>
+
+    <!-- Completar html aqui -->
+
+    <div id="contenedorContacto">
+
+        <div class="home-content">
+
+            <div id="gris1">
+                <h1>Recurso</h1>
+            </div>
+
+
+            <div id="blanco">
+                <table class="data_table">
+
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Dirección</th>
+                            <th>Horario</th>
+                            <th>Teléfono</th>
+                            <th>Coodenada X</th>
+                            <th>Coodenada Y</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <template>
+                            <tr>
+                                <td class="nombre">Jose Carlos Lara</td>
+                                <td class="direccion">Hombre</td>
+                                <td class="horario">46</td>
+                                <td class="telefono">187</td>
+                                <td class="coordX"></td>
+                                <td class="coordY"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+
+
+                </table>
+
+                <div id="margen">
+                    <a href="#" class="hero__cta">Añadir recurso</a>
+                </div>
+
+            </div>
+
+            <div id="gris2">
+                <h4>Paula Soler &#169 2023</h4>
+            </div>
+
+
+            <section class="modal">
+                <form id="formu" class="form">
+
+                    <div class="centrar">
+                        <div id="gris3">
+                            <h1>Nuevo recurso</h1>
+                        </div>
+
+                        <div id="blanco2">
+
+                            <div>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+
+                            <div>
+                                <label for="direc">Dirección:</label>
+                                <input type="text" id="direccion" name="direccion" required>
+                            </div>
+
+                            <div>
+                                <label for="horario">Horario:</label>
+                                <input type="text" id="horario" name="horario" required>
+                            </div>
+
+                            <div>
+                                <label for="tef">Teléfono:</label>
+                                <input type="text" id="telefono" name="telefono" required>
+                            </div>
+
+                            <div>
+                                <label for="coordX">Coordenadas X:</label>
+                                <input type="text" id="coordX" name="coordX" required>
+                            </div>
+
+                            <div>
+                                <label for="coordY">Coordenadas Y:</label>
+                                <input type="text" id="coordY" name="coordY" required>
+                            </div>
+
+
+                        </div>
+                    
+
+                   
+                    <div id="gris4">
+                     
+                        <button type="submit" class="boton" id="guardar">Añadir</button>
+                        <a href="#"  class="modal__close">Cerrar</a>
+                    </div>
+
+                </div>
+             
+                
+
+            </section>
+
+        </form>
+
+            <script src="app.js"></script>
+
+</body>
+
+</html>
